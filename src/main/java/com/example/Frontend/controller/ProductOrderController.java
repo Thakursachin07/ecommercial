@@ -1,0 +1,21 @@
+package com.example.Frontend.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/product-order")
+public class ProductOrderController {
+
+
+    @GetMapping("/")
+    public String productOrderForm()
+    {
+        return "productOrderForm";
+    }
+
+
+
+}
