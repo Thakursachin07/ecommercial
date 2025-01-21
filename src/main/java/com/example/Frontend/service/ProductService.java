@@ -13,7 +13,7 @@ public class ProductService {
     private final WebClient webClient;
 
     public ProductService(WebClient.Builder webClientBuilder) {
-        this.webClient = webClientBuilder.baseUrl("http://localhost:8082/product").build();
+        this.webClient = webClientBuilder.baseUrl("https://ecommercial-production.up.railway.app/product").build();
     }
 
 
