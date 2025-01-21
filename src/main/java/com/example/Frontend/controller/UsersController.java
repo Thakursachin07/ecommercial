@@ -20,7 +20,7 @@ public class UsersController {
 
     UsersController(WebClient.Builder webClientBuilder)
     {
-        this.webClient = webClientBuilder.baseUrl("http://localhost:8082/users").build();
+        this.webClient = webClientBuilder.baseUrl("https://ecommercial-production.up.railway.app/users").build();
     }
 
 
