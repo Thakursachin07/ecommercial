@@ -16,7 +16,7 @@ public class CartService {
     private final WebClient webClient;
 
     public CartService(WebClient.Builder webClientBuilder) {
-        this.webClient = webClientBuilder.baseUrl("http://localhost:8082/cart").build();
+        this.webClient = webClientBuilder.baseUrl("https://ecommercial-production.up.railway.app/cart").build();
     }
 
 
