@@ -18,7 +18,7 @@ public class DeliveryAddressController {
 
     DeliveryAddressController(WebClient.Builder webClientBuilder)
     {
-        this.webClient = webClientBuilder.baseUrl("http://localhost:8082/delivery-address").build();
+        this.webClient = webClientBuilder.baseUrl("https://ecommercial-production.up.railway.app/delivery-address").build();
     }
 
     @GetMapping("/")
